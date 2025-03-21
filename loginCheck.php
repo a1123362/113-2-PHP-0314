@@ -29,6 +29,6 @@
         header("Location:user.php");
     }else{
         echo "<h1>Login Failed. Please try again after 3 seconds.</h1>";
-        header("Refresh:3;url='login.php'");
+        header("Refresh:3;url='index.php'");
     }
 ?>
